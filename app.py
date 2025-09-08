@@ -5,8 +5,8 @@ import json
 app = Flask(__name__)
 
 # Paste your Telegram details here
-TELEGRAM_TOKEN = 'YOUR_BOT_TOKEN_HERE'  # Replace with your token from Step 2
-TELEGRAM_CHAT_ID = 'YOUR_CHAT_ID_HERE'  # Replace with your chat ID from Step 2
+TELEGRAM_TOKEN = '8444942829:AAGl0IeUA56KEgALw5VloUyuoNGaWcD4Rjw'  # Replace with your token from Step 2
+TELEGRAM_CHAT_ID = '-1002994734036'  # Replace with your chat ID from Step 2
 
 def send_to_telegram(message):
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
